@@ -27,7 +27,7 @@ public class tapHandler : MonoBehaviour {
 				rigidbody.AddForce(transform.up * jumpSpeed, ForceMode.Impulse);
 				this.beingGrounded = false;
 			} else {
-				rigidbody.AddForce(-1*(transform.up * jumpSpeed), ForceMode.Impulse);
+				rigidbody.AddForce(-1*(transform.up * gravity), ForceMode.Impulse);
 				this.isStart = true;
 			}
 			print(this.groundedAt.ToString() + ':' + Time.time.ToString());
