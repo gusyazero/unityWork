@@ -16,4 +16,12 @@ public class PlayerScript : MonoBehaviour {
 		this.x = Input.GetAxis("Horizontal");
 		transform.Translate(Vector3.right * this.x * this.speed	);
 	}
+
+	private void OnCollisionEnter(Collision collision) {
+		if (collision.gameObject.name == "Enemy(Clone)") {
+			float localX = Random.Range(0.1f, 0.5f);
+			transform.localScale -= new Vector3(localX, 0.0f, 0.0f);
+			if (transform.localScale.x < 1.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f); 
+		}
+	}
 }

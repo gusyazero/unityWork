@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyScript : MonoBehaviour {
+public class GameOverScript : MonoBehaviour {
 
-	public float speed =  0.2f;
-
+	public GUIStyle style;
 	// Use this for initialization
 	void Start () {
 	
@@ -12,7 +11,10 @@ public class EnemyScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(0.0f, 0.0f, -0.2f, Space.World);
-		transform.Rotate(1, 1, 1);
+	
+	}
+
+	void OnGUI () {
+		GUI.Label(new Rect(10, 10, 100, 100), "Game Over", this.style);
 	}
 }
