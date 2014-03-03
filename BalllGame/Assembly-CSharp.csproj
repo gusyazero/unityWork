@@ -49,6 +49,7 @@
      <Compile Include="Assets\EnemiesScript.cs" />
      <Compile Include="Assets\EnemyScript.cs" />
      <Compile Include="Assets\GameOverScript.cs" />
+     <Compile Include="Assets\GameOverScript1.cs" />
      <Compile Include="Assets\PlayerScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
