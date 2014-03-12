@@ -16,8 +16,10 @@ public class PlayerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		/*
 		this.x = Input.GetAxis("Horizontal");
 		transform.Translate(Vector3.right * this.x * this.speed	);
+		*/
 	}
 
 	private void OnCollisionEnter(Collision collision) {
@@ -29,6 +31,7 @@ public class PlayerScript : MonoBehaviour {
 	}
 
 	private void OnMouseDown () {
+		rigidbody.isKinematic = false;
 		this.screenPoint = Camera.main.WorldToScreenPoint(transform.position);
 		//this.offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
 		this.offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, screenPoint.y, screenPoint.z));
@@ -39,5 +42,9 @@ public class PlayerScript : MonoBehaviour {
 		Vector3 currentScreenPoint = new Vector3(Input.mousePosition.x, screenPoint.y, screenPoint.z);
 		Vector3 currentPosition = Camera.main.ScreenToWorldPoint(currentScreenPoint) + this.offset;
 		transform.position = currentPosition;
+	}
+
+	private void OnMouseUp () {
+		rigidbody.isKinematic = true;
 	}
 }
