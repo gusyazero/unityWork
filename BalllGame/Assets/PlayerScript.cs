@@ -16,10 +16,10 @@ public class PlayerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		/*
+
 		this.x = Input.GetAxis("Horizontal");
 		transform.Translate(Vector3.right * this.x * this.speed	);
-		*/
+
 	}
 
 	private void OnCollisionEnter(Collision collision) {
