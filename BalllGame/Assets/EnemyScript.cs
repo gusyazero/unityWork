@@ -14,7 +14,7 @@ public class EnemyScript : MonoBehaviour {
 		transform.Rotate(1, 1, 1);
 
 		if (transform.position.z <= -12.0) {
-			Application.LoadLevel("GameOver");
+			//Application.LoadLevel("GameOver");
 		}
 	}
 
