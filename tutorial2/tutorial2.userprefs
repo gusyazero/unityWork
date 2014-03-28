@@ -1,15 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TheGames\Scripts\BlockController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\BlockGame\Assets\Player.cs">
     <Files>
-      <File FileName="Assets\TheGames\Scripts\BlockController.cs" Line="26" Column="1" />
-      <File FileName="Assets\TheGames\Scripts\SceneManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\TheGames\Scripts\BallController.cs" Line="1" Column="1" />
-      <File FileName="Assets\TheGames\Scripts\ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\TheGames\Scripts\BlockController.cs" Line="23" Column="76" />
-      <File FileName="Assets\TheGames\Scripts\BottomWallController.cs" Line="1" Column="1" />
-      <File FileName="Assets\TheGames\Scripts\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\TheGames\Scripts\ScoreDisplay.cs" Line="21" Column="1" />
+      <File FileName="..\BlockGame\Assets\Player.cs" Line="14" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
