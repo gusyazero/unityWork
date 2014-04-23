@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EnemyScript.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\BlockHitter\Assets\BlockCreator.cs">
     <Files>
-      <File FileName="Assets\PlayerScript.cs" Line="10" Column="1" />
-      <File FileName="Assets\EnemyScript.cs" Line="25" Column="1" />
+      <File FileName="..\..\BlockHitter\Assets\BlockCreator.cs" Line="25" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
